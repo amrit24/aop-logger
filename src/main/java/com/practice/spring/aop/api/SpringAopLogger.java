@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringAopExecutionTimeTrackerApplication {
+public class SpringAopLogger {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringAopExecutionTimeTrackerApplication.class, args);
+		SpringApplication.run(SpringAopLogger.class, args);
 	}
 
 }

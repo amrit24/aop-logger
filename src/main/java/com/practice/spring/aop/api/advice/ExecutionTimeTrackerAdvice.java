@@ -14,7 +14,7 @@ public class ExecutionTimeTrackerAdvice {
 	
 	Logger logger=LoggerFactory.getLogger(ExecutionTimeTrackerAdvice.class);
 	
-	@Around("@annotation(com.javatechie.spring.aop.api.advice.TrackExecutionTime)")
+	@Around("@annotation(com.practice.spring.aop.api.advice.TrackExecutionTime)")
 	public Object trackTime(ProceedingJoinPoint pjp) throws Throwable {
 		/*
 		Start time for method execution
