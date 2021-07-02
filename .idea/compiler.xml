@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-aop-executiontime-tracker" />
+        <module name="spring-aop-logger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-aop-executiontime-tracker" target="1.8" />
+      <module name="spring-aop-logger" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-aop-executiontime-tracker" options="-parameters" />
+      <module name="spring-aop-logger" options="-parameters" />
     </option>
   </component>
 </project>

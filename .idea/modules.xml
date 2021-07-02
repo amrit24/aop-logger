@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-aop-executiontime-tracker.iml" filepath="$PROJECT_DIR$/spring-aop-executiontime-tracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-aop-logger.iml" filepath="$PROJECT_DIR$/spring-aop-logger.iml" />
     </modules>
   </component>
 </project>
